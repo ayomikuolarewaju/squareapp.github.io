@@ -43,7 +43,7 @@ function Nav() {
               "bg-[url('../../images/banner-bg.png')]  bg-no-repeat bg-cover h-[80px] mx-auto w-full px-4 sm:px-8 md:px-16 xl:px-32 2xl:px-64 flex justify-between text-white gap-3 items-start"
       }>
           <div className='w-1/2 flex items-center justify-start h-[80px] pt-2'>
-              <Link href='/' className='w-[60px] h-[60px] cursor-pointer'><Image src={logo} alt='logo' /></Link>
+              <Link href='/' className='md:w-[60px] md:h-[60px] cursor-pointer'><Image src={logo} alt='logo' /></Link>
               <Link href='/'><p className='text-md text-[#420606] capitalize font-bold w-[220px] text-center'>s.square consulting</p></Link>
               
           </div>

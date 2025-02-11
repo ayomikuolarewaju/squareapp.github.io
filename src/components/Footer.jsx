@@ -49,7 +49,7 @@ function Footer() {
           </div>
           
           <div className='bg-[#B3973D] mx-auto w-full h-[20px] p-[20px] px-4 sm:px-8 md:px-16 xl:px-32 2xl:px-64 flex justify-center text-white gap-3 items-center'>
-              <p>Copyright 2020 All Right Reserved By <a href="#">Free html  Templates</a></p>
+              <p className='md:text-[15px] text-[10px]'>Copyright 2025 All Right Reserved By <a href="/"> Verscom</a></p>
           </div>
           </div>
           
