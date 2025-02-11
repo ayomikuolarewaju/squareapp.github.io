@@ -54,7 +54,7 @@ function Nav() {
                   <Image className='pt-8' src={Toggle} alt='toggle menu'/>
               </div>
               {isShow ?
-              <div className='flex flex-col gap-y-5 w-[300px] font-bold bg-[#B3973D] h-fit items-center relative p-10 rounded-lg'>
+              <div className='flex flex-col gap-y-5 md:w-[300px] font-bold bg-[#B3973D] h-fit items-center relative p-10 rounded-lg'>
                       {menu.map((m, index) => <div key={index} onClick={()=>increaseno(index)}> 
                           {
                               no === index ?
