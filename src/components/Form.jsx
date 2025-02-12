@@ -10,7 +10,8 @@ function Form() {
           </div>
 
           <div className='flex flex-col w-1/2 gap-y-5'>
-              <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text"  placeholder="Enter Your Email" name="Enter Your Email"/>
+          <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text"  placeholder="Enter Your fullName" name="FullName"/>
+              <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text"  placeholder="Enter Your Email" name="Email"/>
                   <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text" placeholder="Phone" name="Phone"/>
                   <div className='p-3 rounded-lg bg-[#B3973D] text-white font-bold text-center ring-2 ring-[#B3973D]'><a href="#">Subscribe</a></div>
               </div>

@@ -30,7 +30,8 @@ function Footer() {
                  
               <div className='flex flex-col md:w-1/4 gap-y-5'>
                   <h4 className='text-[20px]' >Newsletter</h4>
-              <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text"  placeholder="Enter Your Email" name="Enter Your Email"/>
+                  <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text"  placeholder="Enter Your Phone" name="phone"/>
+                  <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text"  placeholder="Enter Your Email" name="email"/>
                   <input className='p-3 rounded-lg bg-transparent ring-2 ring-[#B3973D]' type="text" placeholder="Phone" name="Phone"/>
                   <div className='p-3 rounded-lg bg-[#B3973D] text-white ring-2 ring-[#B3973D]'><a href="#">Subscribe</a></div>
               </div>
